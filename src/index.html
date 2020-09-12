@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiceRoll</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <section>
+        <!-- 
+        <div class="score">
+            <div class="player-score">
+                <h2>Player</h2>
+                <p id='pscore'>0</p>
+            </div>
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p id='cscore'>0</p>
+            </div>
+        </div> -->
+
+        <div class="intro">
+            <h1>Roll The Dice</h1>
+            <button>Let's Play</button>
+        </div>
+        <div class="match fadeOut">
+            <header class='nav-header'>
+                <h1>Dice Roll</h1>
+            </header>
+            <h2 class="chose">Choose an option</h2>
+
+            <div class="master">
+                <div class="board">
+                    <div class="box box-1">
+                        <p>A</p>
+                    </div>
+                    <div class="box box-2">
+                        <p>B</p>
+                    </div>
+
+                    <div class="box box-3">
+                        <p>C</p>
+                    </div>
+                    <div class="box box-4">
+                        <p>D</p>
+                    </div>
+
+                </div>
+                <div class="dice-img">
+                    <img class='dice-x' src="./img/dice.png" alt="R">
+                    <div class='btn'>Catch</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="congrats fadeOut">
+            <div class="win">
+                <h2 class="txt-winner fadeOut">You Won!</h2>
+            </div>
+            <div class="content">
+                <a href="./index.html">Play Again</a>
+            </div>
+        </div>
+
+
+        <div class="failure fadeOut">
+            <div class="lost">
+                <h2 class="txt-loser fadeOut">You Lost!</h2>
+            </div>
+            <div class="content">
+                <a  class="fadeOut" href="./index.html">Play Again</a>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <script src='app.js'></script>
+</body>
+
+</html>
